@@ -1,7 +1,6 @@
 # first-project
 Euler exercise 1
 m=1
-z=0
 n=0
 while m<354295:
     q=0
