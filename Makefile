@@ -75,7 +75,7 @@ FT_COMPILED =		ft_atoi.o \
                     ft_tolower.o \
                     ft_toupper.o \
 
-PRINTF_COMPILED =	ft_printf.o itoa_base.o pr_num_str.o pr_uni_char.o read.o type.o unicode.o
+PRINTF_COMPILED =	withnorm.o
 COMPILED =			$(FT_COMPILED) $(PRINTF_COMPILED)
 OBJECTS = $(addprefix ${OBJDIR}, ${COMPILED})
 
@@ -94,11 +94,9 @@ $(PRINTF_COMPILED): %.o: $(PRINTF_SRC_DIR)/%.c
 
 clean:
 	@-/bin/rm -f $(COMPILED)
-	@ make clean -C libft/
 
 fclean: clean
 	@-/bin/rm -f $(NAME)
-	@-/bin/rm -f $(COMPILED)
-	@ make fclean -C libft/
+	@-/bin/rm -f $(FT_COMPILED)
 
 re: fclean all

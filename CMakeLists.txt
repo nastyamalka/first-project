@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.9)
-project(ft_printf)
+project(printf_for_checker_clion)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(ft_printf
+add_executable(printf_for_checker_clion
         libft/ft_atoi.c
         libft/ft_bzero.c
         libft/ft_countw.c
@@ -68,11 +68,6 @@ add_executable(ft_printf
         libft/ft_tolower.c
         libft/ft_toupper.c
         libft/libft.h
-        printf/ft_printf.c
-        printf/itoa_base.c
-        printf/pr_num_str.c
-        printf/pr_uni_char.c
         printf/printf.h
-        printf/read.c
-        printf/type.c
-        printf/unicode.c)
+        printf/withnorm.c
+        )

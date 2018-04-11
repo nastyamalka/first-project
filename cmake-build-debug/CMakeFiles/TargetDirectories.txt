@@ -1,3 +1,3 @@
-/Users/amalkevy/ft_printf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/amalkevy/ft_printf/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/amalkevy/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir
+/Users/amalkevy/printf_for_checker clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/amalkevy/printf_for_checker clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/amalkevy/printf_for_checker clion/cmake-build-debug/CMakeFiles/printf_for_checker_clion.dir
